@@ -1,0 +1,31 @@
+COMANDOS PARA NAVEGAR NO BASH ENTRE O SISTEMA DE ARQUIVOS/PASTAS NO WINDOWS:
+
+clear - limpa a tela do bash
+ls - Listar arquivo e pastas no diretório atual
+dir - Listar pasta e arquivos no diretório atual
+cd[nome da pasta] - Acessar um diretório ou pasta dentro do sistema de arquivo/pastas do windows.
+cd .. -Para retornar para a pasta anterior
+mkdir[nome da pasta] - Para criar uma pasta dentro do diretório atual.
+
+COMANDOS GIT:
+git init - Iniciar um repositorio local em um diretorio do windows.
+rm -rf .git - Cancela o repositório criado e torna ele um diretório comum novamente.
+git status - Verifica o estado do diretorio e de repositorio git mostrando arquivos adicionados e modificações feitas em arquivos.
+git add .- Adicionar todos os arquivos que estao no diretorio fisico para o repositorio git.
+git add<nome do arquivo> - Adiciona um arquivo especifico do diretorio para o repositorio git. 
+git rm --cached "<nome do arquivo>" - Remove um arquivo especifico do seu repositorio git.
+git config --global user.name "Seu Nome" -  adicionar um nome de usuario ao repositorio git que vc esta trabalhando
+git config --global user.email "seu.email@example.com" - Adicionar um email ao repositorio git que esta trabalhando
+git config --global --get-regexp user - Lista todos usuario e email cadastrados no git.
+git commit -m "Meu primeiro commit" - Commita o repositorio(Cria um versão do repositorio)
+git reset --hard <hash_do_commit> - Apaga um commit do tem repositorio
+$ git log - Lista todos commits feito no repositorio
+git config --global --unset user.name - Remove os nomes de usuarios do git
+git config --global --unset user.email - Remove emails do git
+git checkout <hash do commit>  -  para resgatar a versao do commit que foi passado hash
+git checkout master - ir para branch master 
+git branch -M main - Mudar o nome da Branch que vc esta no momento
+git remote add origin https://github.com/Rodrigojesussilva/Receita-de-bolo.git  -conectando o repositorio local a um repositorio na nuvem (Github)
+git push -u origin main - envia os arquivos do repositorio local(git) para o repositorio na nuvem(github)
+printf "protocol=https\nhost=github.com\n" | git credential reject - Apagar todas as credenciais antigas que estao sendo usadas
+git pull origin - Puxa o repositorio remoto para o reposotorio local

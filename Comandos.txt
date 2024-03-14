@@ -1,0 +1,40 @@
+Exibição do Diretório Atual:
+
+pwd: Exibe o caminho completo do diretório atual.
+Navegação Rápida:
+
+cd ~ ou cd: Muda para o diretório home do usuário.
+cd -: Retorna para o diretório anterior.
+
+Histórico de Comandos:
+
+history: Exibe o histórico de comandos utilizados no terminal.
+
+!!: Repete o último comando.
+!n: Repete o comando de número n do histórico.
+Procura de Arquivos:
+
+find [diretório] -name [nome-do-arquivo]: Procura um arquivo pelo nome no diretório especificado.
+Listagem Detalhada:
+
+ls -l: Lista os arquivos no diretório com detalhes, como permissões, proprietário, tamanho, etc.
+ls -a: Lista todos os arquivos, incluindo os ocultos.
+Navegação por Atalhos:
+
+cd /: Muda para o diretório raiz.
+cd ../..: Retrocede dois níveis no diretório.
+Copiar e Mover Arquivos:
+
+cp [origem] [destino]: Copia um arquivo ou diretório.
+mv [origem] [destino]: Move um arquivo ou diretório.
+Criação de Links Simbólicos:
+
+ln -s [caminho-original] [nome-do-link]: Cria um link simbólico para um arquivo ou diretório.
+Visualização de Conteúdo de Arquivos:
+
+cat [nome-do-arquivo]: Exibe o conteúdo de um arquivo.
+less [nome-do-arquivo]: Permite navegar por grandes arquivos de forma interativa.
+Informações sobre o Sistema:
+
+uname -a: Exibe informações detalhadas sobre o sistema operacional.
+df -h: Mostra o espaço em disco disponível.
