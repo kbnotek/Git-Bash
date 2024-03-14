@@ -28,4 +28,4 @@ git branch -M main - Mudar o nome da Branch que vc esta no momento
 git remote add origin https://github.com/Rodrigojesussilva/Receita-de-bolo.git  -conectando o repositorio local a um repositorio na nuvem (Github)
 git push -u origin main - envia os arquivos do repositorio local(git) para o repositorio na nuvem(github)
 printf "protocol=https\nhost=github.com\n" | git credential reject - Apagar todas as credenciais antigas que estao sendo usadas
-git pull origin - Puxa o repositorio remoto para o reposotorio local
+git pull origin - Puxa o repositorio remoto para o reposotorio local  
